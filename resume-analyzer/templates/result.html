@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Resume Analysis Dashboard</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Smart Resume Analyzer</div>
+
+<nav>
+<a href="/">Home</a>
+<a href="/">Analyze Another</a>
+</nav>
+
+</header>
+
+
+<section class="dashboard">
+
+<h1>Resume Analysis Dashboard</h1>
+
+
+<div class="stats">
+
+<div class="card">
+
+<h2>Recommended Role</h2>
+
+<p class="role">{{role}}</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Match Score</h2>
+
+<div class="progress">
+
+<div class="progress-bar" style="width: {{score}}%">
+
+{{score}}%
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Skills Found</h3>
+
+<p class="skill-box">{{skills}}</p>
+
+</div>
+
+<div class="card">
+
+<h3>Matched Skills</h3>
+
+<p class="skill-box">{{matched}}</p>
+
+</div>
+
+<div class="card">
+
+<h3>Missing Skills</h3>
+
+<p class="skill-box">{{missing}}</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>AI Powered Resume Analyzer | ML Mini Project</p>
+
+</footer>
+
+</body>
+
+</html>

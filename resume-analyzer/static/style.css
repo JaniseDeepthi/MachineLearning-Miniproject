@@ -1,0 +1,172 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6fb;
+}
+
+/* HEADER */
+
+header{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+background:#1e3a8a;
+color:white;
+
+}
+
+header nav a{
+
+color:white;
+margin-left:20px;
+text-decoration:none;
+
+}
+
+.logo{
+
+font-size:22px;
+font-weight:bold;
+
+}
+
+/* HERO */
+
+.hero{
+
+text-align:center;
+padding:120px 20px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+color:#1e293b;
+
+}
+
+.hero p{
+
+color:#555;
+margin-bottom:30px;
+
+}
+
+/* UPLOAD BUTTON */
+
+.upload-box{
+
+display:inline-block;
+padding:15px 30px;
+border:2px dashed #3b82f6;
+border-radius:10px;
+cursor:pointer;
+background:white;
+margin-bottom:20px;
+
+}
+
+.upload-box input{
+
+display:none;
+
+}
+
+button{
+
+padding:12px 30px;
+background:#3b82f6;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#2563eb;
+
+}
+
+/* DASHBOARD */
+
+.dashboard{
+
+max-width:1000px;
+margin:60px auto;
+
+}
+
+.stats{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-bottom:30px;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:20px;
+
+}
+
+.card{
+
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+/* PROGRESS BAR */
+
+.progress{
+
+background:#e5e7eb;
+border-radius:10px;
+height:25px;
+overflow:hidden;
+
+}
+
+.progress-bar{
+
+background:#22c55e;
+height:100%;
+color:white;
+text-align:center;
+line-height:25px;
+
+}
+
+/* SKILLS */
+
+.skill-box{
+
+background:#f1f5f9;
+padding:10px;
+border-radius:8px;
+
+}
+
+/* FOOTER */
+
+footer{
+
+margin-top:80px;
+text-align:center;
+padding:20px;
+background:#1e3a8a;
+color:white;
+
+}
